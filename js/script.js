@@ -89,16 +89,16 @@ function toggleSelectedModel(event) {
 
   //função q realiza o POST enviando os dados inseridos pelo usuario
   function send(){
-    const modelo = document.querySelector(".model .selected");
-    const gola = document.querySelector(".neck .selected");
-    const tecido = document.querySelector(".material .selected");
+    const modelo = document.querySelector(".model.selected");
+    const gola = document.querySelector(".neck.selected");
+    const tecido = document.querySelector(".material.selected");
     const img =  document.querySelector("input[type=text]");
 
     const modVal = modelo.attr('name');
     const golaVal = gola.attr('name');
     const tecidoVal = tecido.attr('name');
     const imgVal = img.attr('name');
-
+    //já foi tentado chamar o value pela função val(), pela attr() chamar o name e converter para string com toString()
     const dados = {
       "model": modVal,
       "neck": golaVal,
@@ -116,6 +116,7 @@ function toggleSelectedModel(event) {
         console.log(err)
     });
     console.log("deu boa");
+    location.refresh();
   }
 
   //filtro geral que pega todos os tipos de camisa
