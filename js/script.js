@@ -287,6 +287,8 @@ function toggleSelectedModel(event) {
         }
       
     }
+    alert("Camisa escolhida com sucesso!!!");
+    location.refresh();
   }
 
   callName();   //executando a chamada do nome 
