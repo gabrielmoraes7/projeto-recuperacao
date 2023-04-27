@@ -1,0 +1,139 @@
+body{
+  background-color: lightgray;
+}
+.topo {
+  height: 90px;
+  width: 100%;
+  background-color: blue;
+}
+.logo {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.saudacao {
+  position: absolute;
+  width: 248px;
+  height: 39px;
+  left: 85%;
+  top: 25px;
+
+  background: #D9D9D9;
+  border-radius: 20px;
+
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+
+  color: #232323;
+}
+
+.corpo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.esquerda {
+  background-color: white;
+  width: 50%;
+}
+
+.circle-button {
+  border: none;
+  color: #F2F2F2;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+
+  background: #F2F2F2;
+  border: 0.5px solid #C4C4C4;
+}
+
+.centralizado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .buttons button {
+  margin: 0 10px;
+}
+.direita {
+  width: 50%;
+  background-color: blue;
+}
+
+.direita img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.abaixo {
+  width: 100%;
+  background-color: lightgray;
+}
+
+.filter-button {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-button button {
+  border-radius: 20px;
+  margin: 0 15px;
+}
+
+input {
+  width: 396.27px;
+  height: 40px;
+  border-radius: 10px;
+
+}
+
+.send {
+  width: 398.61px;
+  height: 40px;
+      
+  background: #C4C4C4;
+  border-radius: 10px;
+}
+
+.selected{
+  border: 3px solid #404EED;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+}
+.img-card {
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 216px;
+  height: 256px;
+  margin: 0 10px;
+  text-align: center;
+}
+.img-card img {
+  max-width: 80%;
+  margin: 10px 0;
+}
