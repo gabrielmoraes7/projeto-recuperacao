@@ -1,4 +1,4 @@
-import axios from 'axios';
+//import axios from 'axios';
 
 axios.defaults.headers.common['Authorization'] = 'HAhrm2YBNzdkMeFVvtcKkwy3';    //token de autorização para acessar a API
 
